@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio William Alvim</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <button class="menu">INICIO</button>
+            <button class="menu">SOBRE</button>
+            <button class="menu">PORTIFOLIO</button>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>O que fazemos</h1>
+            <p>Somos uma empresa de webdesing especializada em criações de sites, app e programas personalizado.</p>
+        </section>
+        <section>
+            <div class="artigos">
+                <article class="article-rigth">
+                    <img src="img/identidade.jpg" alt="Identidade visual">
+                    <h3>Identidade Visual</h3>
+                    <p>Construção de marcas, branding, identidade visual corporativa, papelaria visual, manual, redesign
+                        e modernização de logotipos.</p>
+                </article>
+                <article class="article-rigth">
+                    <img src="img/lapis.jpg" alt="Design Gráfico">
+                    <h3>Design Gráfico</h3>
+                    <p>Criação de material institucional para empresas, design de folders, folhetos e flyers, criação de
+                        cartões de visita, timbrados e envelopes.</p>
+                </article>
+                <article class="article-rigth">
+                    <img src="img/pc.jpg" alt="Web Design">
+                    <h3>Web Design</h3>
+                    <p>Desenvolvimento de sites com design surpreendente, sites responsivos (compatíveis com desktops,
+                        tablets e smartphones), criação de sites auto administráveis, lojas virtuais, blogs e sites
+                        interativos.</p>
+                </article>
+                <article class="article-rigth">
+                    <img src="img/lupa.jpg" alt="Marketing Digital">
+                    <h3>Marketing Digital</h3>
+                    <p>Sites otimizados para os buscadores (SEO), seu site em primeiro lugar no Google (SEM), campanhas
+                        de email marketing, redes Sociais (Facebook, Twitter, Linkedin,…), estratégias para
+                        posicionamento de marca.</p>
+                </article>
+            </div>
+        </section>
+        <section>
+            <h1>
+                - Entre em Contato
+            </h1>
+            <form class="formulario" action="processa_formulario.php" method="get">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label> <input type="email" id="email" name="email" required>
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto">
+                    <option value="orçamento">Orçamento</option>
+                    <option value="outros">Outros</option>
+                </select>
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg" name="message" cols="50" rows="5">
+             </textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <footer>
+            <h2>ENTRE EM CONTATO</h2>
+            <P>Telefone/Whatsapp:</P>
+            <p>Endereço:</p>
+            <h2>MENU RAPIDO</h2>
+            <p>SOBRE</p>
+            <P>SERVIÇOS</P>
+            <P>ORÇAMENTO</P>
+            <p> &copy; 2025 William Alvim todos os direitos reservados</p>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
